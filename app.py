@@ -52,6 +52,9 @@ with tab1 :
         if save == "Yes" :     
             st.write("Double Click to save")
             bstop = st.button("Save")
+        elif save == "No" : 
+            st.write("Click To Stop")
+            bstop = st.button("Stop")
 
     if bstart : 
         try : 
